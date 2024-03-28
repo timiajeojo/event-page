@@ -1,0 +1,10 @@
+.music-ui-8-1 {
+  width: 100%;
+  position: relative;
+  height: 4096px;
+  background-image: url(./public/music-ui-8-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+

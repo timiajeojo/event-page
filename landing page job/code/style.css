@@ -1,0 +1,41 @@
+
+
+ /* Resetting default margin and padding */
+ body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the navigation bar */
+nav {
+    position: relative; /* Set the position to relative */
+    z-index: 1; /* Ensure the navigation bar is above the background image */
+    background-color:  /* Add a semi-transparent background color */
+    height: 80px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+nav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center items horizontally */
+    padding: 10px 0; /* Add some padding to the top and bottom */
+}
+
+nav ul li {
+    margin: 0 10px; /* Add space between each navigation item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* White text color */
+    padding: 5px 10px; /* Add padding around text */
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s ease; / Smooth transition */
+}
+
+nav ul li a:hover {
+    background-color: FFA902 ; /* Darker background color on hover */
+}

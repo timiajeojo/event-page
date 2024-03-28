@@ -1,0 +1,40 @@
+.about-us {
+    background-color: #f9f9f9; /* Background color for the section */
+    padding: 50px 0; /* Add padding */
+}
+
+.container {
+    width: 80%; /* Set width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.about-content {
+    display: flex; /* Use flexbox */
+}
+
+.heading-container {
+    flex: 1; /* Take up remaining space */
+}
+
+.heading-container h1 {
+    font-size: 36px; /* Adjust font size */
+    margin-bottom: 20px; /* Add space below heading */
+}
+
+.paragraph-container {
+    flex: 2; /* Take up twice as much space as heading */
+}
+
+.paragraph-container p {
+    font-size: 18px; /* Adjust font size */
+    margin-bottom: 20px; /* Add space below paragraph */
+}
+
+.read-more {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.read-more:hover {
+    text-decoration: underline; /* Underline on hover */
+}

@@ -1,0 +1,9 @@
+.linkedin-circled {
+  width: 100%;
+  position: relative;
+  height: 90px;
+  background-image: url(./public/facebook@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

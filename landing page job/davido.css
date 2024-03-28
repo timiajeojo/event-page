@@ -1,0 +1,9 @@
+.davido {
+  width: 100%;
+  position: relative;
+  height: 418px;
+  background-image: url(./public/davido@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
